@@ -9,8 +9,13 @@
 | 19/0118555  |  Wengel Rodrigues Farias |
 
 
+## Video da Apresentação
+
+[Link do Vídeo]()
+
+
 ## Sobre 
-O projeto é um Gerenciador de Estoque, um programa que representa um conjunto de produtos como uma coleção, onde cada produto é um item na coleção e a relação custo-benefício entre demanda esperada e custo de cada produto é a métrica de decisão. O objetivo é implementar um algoritmo de otimização que, com base no orçamento disponível, determina a melhor combinação de produtos a serem adquiridos para maximizar a demanda esperada atendida e manter os custos dentro do orçamento estipulado.
+O projeto do Gerenciador de Estoque utiliza o algoritmo do Problema da Mochila (Knapsack) decidir quais produtos devem ser adquiridos e mantidos em estoque. Com base na demanda esperada e no orçamento disponível, o sistema calcula a relação custo-benefício de cada produto e seleciona aqueles que oferecem a melhor relação. Essa abordagem de otimização auxilia na tomada de decisões de compra e garante uma gestão eficiente do estoque.
 
 ## Screenshots
 ![ScreenShot1](./img/img1.png)
@@ -32,21 +37,20 @@ sudo apt-get update
 sudo apt-get install python3
 ```
 # Execução
-Abra um terminal na pasta **Script** do projeto e execute o comando:
+Abra um terminal na pasta **Scripts** do projeto e execute o comando:
 ```
 .\start.bat
 ```
-Abra outro terminal na pasta **Script** e execute  o comando:
+Abra outro terminal na pasta **Scripts** e execute  o comando:
 ```
 .\venv.bat
 ```
 
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Na interface do usuário, você verá campos de entrada para os detalhes do produto: **Nome do Produto**, **Custo**, **Quantidade Disponível** e **Demanda Esperada**. Você pode adicionar quantos produtos quiser, clicando no botão **Adicionar Produto**. Defina o orçamento. Depois de inserir todos os detalhes do produto e definir o orçamento, clique no botão **Gerenciar Estoque**.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+
 
 
 
