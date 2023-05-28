@@ -1,6 +1,6 @@
 # Estoque
 
-**Número da Lista**: X<br>
+**Número da Lista**: 42<br>
 **Conteúdo da Disciplina**: Greed<br>
 
 ## Alunos
@@ -16,9 +16,29 @@ Descreva os objetivos do seu projeto e como ele funciona.
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: Python<br>
+**Framework**: Flask<br>
+
+- ### Windows
+Baixe o pacote Python do [site official](https://www.python.org/downloads/), e no momento da instação, marque a opção "Add Python to PATH" para no próximo passo instalar as dependências via terminal e rodar o projeto.
+
+- ### Linux
+Execute no terminal do linux a atualização dos pacotes e instalação do python3
+
+```bash
+sudo apt-get update
+sudo apt-get install python3
+```
+# Execução
+Abra um terminal na pasta **Script** do projeto e execute o comando:
+```
+.\start.bat
+```
+Abra outro terminal na pasta **Script** e execute  o comando:
+```
+.\venv.bat
+```
+
 
 ## Uso 
 Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.

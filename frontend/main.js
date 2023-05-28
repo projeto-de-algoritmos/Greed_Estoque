@@ -15,8 +15,8 @@ function criarProdutoInput() {
     produtoInput.innerHTML = `
         <input type="text" class="nome-input" placeholder="Nome do Produto">
         <input type="number" class="custo-input" placeholder="Custo">
-        <input type="number" class="quantidade-input" placeholder="Quantidade Disponível">
-        <input type="number" class="demanda-input" placeholder="Demanda Esperada">
+        <input type="number" class="quantidade-input" placeholder="Quantidade">
+        <input type="number" class="demanda-input" placeholder="Demanda">
     `;
 
     return produtoInput;
@@ -47,6 +47,10 @@ function mostrarResultado(estoqueFinal, custoTotal) {
         resultadoContainer.textContent = 'Nenhum produto a ser adquirido e mantido em estoque.';
         return;
     }
+
+    const message = document.createElement('p');
+    message.textContent = "Produtos a serem adquiridos e mantidos em estoque:";
+    resultadoContainer.appendChild(message);
 
     const table = document.createElement('table');
 
