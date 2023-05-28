@@ -1,4 +1,4 @@
-# Estoque
+# Gerenciamento de Estoque
 
 **Número da Lista**: 42<br>
 **Conteúdo da Disciplina**: Greed<br>
@@ -10,10 +10,12 @@
 
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+O projeto é um Gerenciador de Estoque, um programa que representa um conjunto de produtos como uma coleção, onde cada produto é um item na coleção e a relação custo-benefício entre demanda esperada e custo de cada produto é a métrica de decisão. O objetivo é implementar um algoritmo de otimização que, com base no orçamento disponível, determina a melhor combinação de produtos a serem adquiridos para maximizar a demanda esperada atendida e manter os custos dentro do orçamento estipulado.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+![ScreenShot1](./img/img1.png)
+![ScreenShot2](./img/img2.png)
+![ScreenShot3](./img/img3.png) 
 
 ## Instalação 
 **Linguagem**: Python<br>
