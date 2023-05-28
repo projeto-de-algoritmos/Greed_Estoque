@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Estoque</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Gerenciamento de Estoque</h1>
+        <div id="produtos-container">
+            <div class="produto-input" data-id="1">
+                <input type="text" class="nome-input" placeholder="Nome do Produto">
+                <input type="number" class="custo-input" placeholder="Custo">
+                <input type="number" class="quantidade-input" placeholder="Quantidade Disponível">
+                <input type="number" class="demanda-input" placeholder="Demanda Esperada">
+            </div>
+        </div>
+        <button id="adicionar-produto-btn">Adicionar Produto</button>
+        <label for="orcamento-input">Orçamento Disponível:</label>
+        <input type="number" id="orcamento-input" placeholder="Valor em reais">
+        <button id="gerenciar-estoque-btn">Gerenciar Estoque</button>
+        <div id="resultado-container"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
