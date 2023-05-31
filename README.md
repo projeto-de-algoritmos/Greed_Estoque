@@ -11,7 +11,7 @@
 
 ## Video da Apresentação
 
-[Link do Vídeo]()
+[Link do Vídeo](https://www.youtube.com/watch?v=sq-GT_HDTP0&feature=youtu.be)
 
 
 ## Sobre 
