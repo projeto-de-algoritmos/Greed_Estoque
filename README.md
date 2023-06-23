@@ -53,3 +53,7 @@ Na interface do usuário, você verá campos de entrada para os detalhes do prod
 [Link do Vídeo](https://www.youtube.com/watch?v=sq-GT_HDTP0&feature=youtu.be)
 
 
+https://github.com/projeto-de-algoritmos/Greed_Estoque/assets/88208512/9225131e-5479-4959-a176-9d876848d83b
+
+
+
