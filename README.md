@@ -9,18 +9,14 @@
 | 19/0118555  |  Wengel Rodrigues Farias |
 
 
-## Video da Apresentação
-
-[Link do Vídeo](https://www.youtube.com/watch?v=sq-GT_HDTP0&feature=youtu.be)
-
 
 ## Sobre 
 O projeto do Gerenciador de Estoque utiliza o algoritmo do Problema da Mochila (Knapsack) decidir quais produtos devem ser adquiridos e mantidos em estoque. Com base na demanda esperada e no orçamento disponível, o sistema calcula a relação custo-benefício de cada produto e seleciona aqueles que oferecem a melhor relação. Essa abordagem de otimização auxilia na tomada de decisões de compra e garante uma gestão eficiente do estoque.
 
 ## Screenshots
-![ScreenShot1](./img/img1.png)
-![ScreenShot2](./img/img2.png)
-![ScreenShot3](./img/img3.png) 
+![ScreenShot1](./assets/img1.png)
+![ScreenShot2](./assets/img2.png)
+![ScreenShot3](./assets/img3.png) 
 
 ## Instalação 
 **Linguagem**: Python<br>
@@ -52,6 +48,8 @@ Na interface do usuário, você verá campos de entrada para os detalhes do prod
 
 
 
+## Video da Apresentação
 
+[Link do Vídeo](https://www.youtube.com/watch?v=sq-GT_HDTP0&feature=youtu.be)
 
 
